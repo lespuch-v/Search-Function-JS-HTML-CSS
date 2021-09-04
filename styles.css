@@ -1,0 +1,51 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.first-container{
+    padding: 20px;
+    border-bottom: 3px dashed green;
+    position: absolute;
+    background-color: rgb(250, 158, 125);
+    width: 555px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 30px rgb(165, 227, 255) solid;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+    top: 9px;
+}
+.searchHeading{
+    font-size: 35px;
+    font-weight: 900;
+}
+#searchField{
+    border-radius: 10px;
+    font-size: 25px;
+    width: 300px;
+    height: 30px;
+}
+.main-section-container{
+    width: 600px;
+    height: 600px;
+    background-color: rgb(175, 175, 175);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 8px;
+}
+.second-container{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 160px;
+}
+tr{
+    height: 40px;
+    
+}
+td{
+    width: 200px;
+}
